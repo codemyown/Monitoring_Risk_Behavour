@@ -1,0 +1,105 @@
+/* App.css */
+
+body {
+  background-color: #f8f9fb;
+  font-family: 'Arial', sans-serif;
+}
+
+.heading {
+  text-align: center; 
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+
+.container-fluid {
+  margin-top: 30px;
+}
+
+.sidebar {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sidebar h2 {
+  color: #17a2b8;
+}
+
+.sidebar input {
+  margin-bottom: 10px;
+}
+
+.dashboard {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.heading h1 {
+  color: #343a40;
+}
+
+.tabs button {
+  margin-right: 10px;
+}
+
+.search input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.table-container {
+  overflow: auto;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+.btn-primary,
+.btn-success,
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-info:hover {
+  background-color: #138496;
+}
+
+
